@@ -8,3 +8,4 @@
 * Add data folder to dvc using `dvc add <data_folder>` in our case it will be `dvc add data/`
 * Then we commit the dvc files using `dvc commit`
 * Finally push the data to remote storage using `dvc push`
+* After some changes `dvc status` to check the status of dvc tracked files

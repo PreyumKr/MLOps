@@ -1,10 +1,16 @@
 class chatbook:
+
+    # Static variable accessed using class name
+    __user_id = 1
+
     def __init__(self):
+        self.id = chatbook.__user_id
+        chatbook.__user_id += 1
         self.username = ""
         self.password = ""
         self.loggedin = False
 
-        self.menu()
+        # self.menu()
 
     def menu(self):
         user_input = input("Welcome to Chatbook!\n1.Press 1 to Sign Up\n2.Press 2 to Sign In\n3.Press 3 to write a post\n4.Press 4 to message a friend\n5.Press Any other key to Exit\n\n>")
@@ -61,5 +67,10 @@ class chatbook:
             print("Please sign in to message a friend.\n\n")
         
         self.menu()
+
+    def get_name(self):
+        return self.username
+    def set_name(self, name):
+        self.username = name
 
 obj = chatbook()

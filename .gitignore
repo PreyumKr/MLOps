@@ -9,3 +9,10 @@ wheels/
 # Virtual environments
 .venv
 /data
+
+logs/
+data/
+models/
+reports/
+dvclive/
+dvc_new.yaml

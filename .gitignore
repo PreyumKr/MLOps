@@ -13,6 +13,4 @@ wheels/
 logs/
 data/
 models/
-reports/
-dvclive/
 dvc_new.yaml

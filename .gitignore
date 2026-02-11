@@ -8,9 +8,4 @@ wheels/
 
 # Virtual environments
 .venv
-/data
 
-logs/
-data/
-models/
-dvc_new.yaml

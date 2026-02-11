@@ -1,0 +1,30 @@
+2026-02-09 22:45:58,862 - data_ingestion - ERROR - File not found: params.yaml
+2026-02-09 22:45:58,863 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2026-02-09 22:54:23,913 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-02-09 22:54:24,509 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2026-02-09 22:54:24,578 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-09 22:54:24,683 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-02-10 22:25:20,945 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-02-10 22:25:21,558 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2026-02-10 22:25:21,584 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-10 22:25:21,660 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-02-10 22:58:11,614 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-02-10 22:58:12,164 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2026-02-10 22:58:12,165 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-10 22:58:12,214 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-02-10 23:01:10,505 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-02-10 23:01:10,755 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2026-02-10 23:01:10,757 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-10 23:01:10,772 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-02-11 20:34:05,108 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-02-11 20:34:07,108 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2026-02-11 20:34:07,204 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-11 20:34:07,362 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-02-11 20:41:54,247 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-02-11 20:41:55,753 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2026-02-11 20:41:55,755 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-11 20:41:55,771 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-02-11 21:37:40,176 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-02-11 21:37:40,979 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2026-02-11 21:37:41,069 - data_ingestion - DEBUG - Data preprocessing completed
+2026-02-11 21:37:41,161 - data_ingestion - DEBUG - Train and test data saved to ./data\raw

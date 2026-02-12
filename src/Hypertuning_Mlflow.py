@@ -23,8 +23,8 @@ rf = RandomForestClassifier(random_state=42)
 
 # Creating the parameter grid for cross validation
 param_grid = {
-    'n_estimators': [10, 50, 100],
-    'max_depth': [None, 10, 20, 30]
+    'n_estimators': [20, 80, 150],
+    'max_depth': [None, 20, 50, 100]
 }
 
 # Applying GridSearchCV for cross validation

@@ -47,3 +47,18 @@
 * Run `dvc exp apply <exp_name>` to reproduce the experiment
 * Run `dvc commit` and `dvc push` to upload the data in `S3 bucket`
 * We can add a stage to the `dvc yaml` file using one line command as well like `dvc stage add -n data_ingestion -d src/data_ingestion.py -o data/raw python src/data_ingestion.py`
+
+# MLFlow
+
+* First to start with run `pip install mlflow`
+* Then tryout `mlflow ui`
+* The mlflow default database is depreciated while I started using the module so I used `mlflow ui --backend-store-uri sqlite:///mlflow.db` to switch the database to sqlite for the demo
+* The difference between an experiment and a run - 
+* Using `mlflow.log_artifact` we can save the figures and code of the script `(__file__)` as well in mlflow
+* Use `mlflow.set_experiment("Name")` to create a custom experiment name 
+* Using `mlflow.log_model()` we can save the model details as well and that gives us the requirements.txt, pickle file and other creation files for the model as well.
+* For using it in the best way use `AWS` or `DagsHub`
+* For using in ***AWS*** we will need `IAM` User to access to and from, `EC2 Server` it can store the light metadata and `S3 Bucket` will save the `Model Data or Artifacts` 
+* For Using ***DagsHub***  create a account and link your github repository, and it will give you the `mlflow remote tracking id` and everything needed for using remote mlflow
+* Use `pip install dagshub` to use the dagshub code in the scripts
+* Using `mlflow.autolog()` to log all the parameters, metrics, model and dataset of the experiment. While script data and tags need to be added manually.

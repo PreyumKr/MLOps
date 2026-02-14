@@ -62,3 +62,8 @@
 * For Using ***DagsHub***  create a account and link your github repository, and it will give you the `mlflow remote tracking id` and everything needed for using remote mlflow
 * Use `pip install dagshub` to use the dagshub code in the scripts
 * Using `mlflow.autolog()` to log all the parameters, metrics, model and dataset of the experiment. While script data and tags need to be added manually.
+
+# Continuous Integration (CI)
+
+* To use `CI using Github actions` we first need to create a folder pattern in our repository like `.github/workflows`
+* We need to create a yaml file inside with the actions rules, can be found on github actions as well

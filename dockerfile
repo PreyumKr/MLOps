@@ -3,8 +3,9 @@ FROM python:3.8-slim
 WORKDIR /app
 
 COPY ./req_docker.txt /app
+COPY ./app.py /app
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r req_docker.txt
 
 EXPOSE 5000
 

@@ -79,3 +79,15 @@
 * Use `docker build -t <name> .` to build a docker image from a `dockerfile` in the current folder with the `tag` name and version `latest` by default
 * `Containers` are an instance of the `images`
 * To pull someone else's image from a registry use `docker pull` i.e. `docker pull vikash95/flask-docker-demo`
+
+# Project 1 - Vehicle Insurance Domain
+
+* We used a `template_generator` script to generate the skeleton of the project. 
+* We will learn the use of `-e .` in `pip install` or `uv add -r req.txt --dev` know as editable mode, we need a setup.py file to install the local code as python package
+* We can use `conda create -n vehicle python=3.10 -y`  and then `conda activate vehicle` to create venv with python 3.10 and use it, even if its not already there in the system which is not possible with uv. 
+* We created a account in `MongoDB Atlas` Create a `Organization` and `Project`
+* Then we want to `create a cluster` in the Project, there we currently chose a `free tier` and default options that comes with it.
+* This Cluster will be our `cloud mongoDB` where we will create our `databases` and `collections`
+* After cluster creation the UI will prompt to `create a database user`, we copied that credentials and adjusted it as needed
+* Then from `Database and Network access` we `add ip address` of `our machine` or `0.0.0.0` i.e. allow access from anywhere. We can create database user from here as well.
+* In the project page, scroll down and click on get connection string and get something like `mongodb+srv://preyumkr:<db_password>@cluster0.teb8wrs.mongodb.net/?appName=Cluster0` after selecting `python` and appropriate version matching

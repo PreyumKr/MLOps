@@ -67,3 +67,15 @@
 
 * To use `CI using Github actions` we first need to create a folder pattern in our repository like `.github/workflows`
 * We need to create a yaml file inside with the actions rules, can be found on github actions as well
+
+# Docker Details
+
+* Create a `dockerfile` to place the `instructions` and the `blueprints` of the image
+* `FROM` specifies the base image
+* `COPY` or `ADD` adds the files from the host system into the building image
+* `RUN` executes the command in the image such as installing a software
+* `CMD` or `ENTRYPOINT` defines the command that executes when the new image starts
+* `EXPOSE` specifies the port the image container listens to
+* Use `docker build -t <name> .` to build a docker image from a `dockerfile` in the current folder with the `tag` name and version `latest` by default
+* `Containers` are an instance of the `images`
+* To pull someone else's image from a registry use `docker pull` i.e. `docker pull vikash95/flask-docker-demo`
